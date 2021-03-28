@@ -1,7 +1,15 @@
 import React from 'react';
 import './style.css'
 
-function Sobre() {
+const sobreImg = (src, alt) => {
+  return (
+    <div className="sobre-img">
+      <img src={src} alt={alt}/>
+    </div>
+  )
+}
+
+const Sobre = () => {
   return (
     <section className="sobre" id="sobre">
       <div className="sobre-info">
@@ -20,12 +28,8 @@ function Sobre() {
             ullam impedit dignissimos dolorum voluptate fuga.
           </p>
       </div>
-      <div className="sobre-img">
-        <img src="img/sobre1.jpg" alt="Sobre 1"/>
-      </div>
-      <div className="sobre-img">
-        <img src="img/sobre2.jpg" alt="Sobre 2"/>
-      </div>
+      {sobreImg("img/sobre1.jpg", "Sobre 1")}
+      {sobreImg("img/sobre2.jpg", "Sobre 2")}
     </section>
   );
 }  
