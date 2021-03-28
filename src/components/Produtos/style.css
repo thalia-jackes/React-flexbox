@@ -26,6 +26,10 @@
   padding: 40px 20px;
 }
 
+.produtos-item img {
+  width: 100%;
+}
+
 .purple {
   border-top: 8px solid #ae81ff; /*Solid - bordar contínua*/
   align-content: center;
