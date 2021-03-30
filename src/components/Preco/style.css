@@ -40,7 +40,7 @@
   max-width: 300px;
   margin: 20px auto;
   font-size: 18px;
-  line-height: 2; /* espaçamento entre os elementos*/
+  line-height: 2;
   font-style: italic;
   color: #7c7c7c;
 }
@@ -80,7 +80,6 @@
     padding-right: 10px;
   }
   .preco .preco-item:nth-child(3) {
-    /*definir ordem dos itens*/
     order: -2;
   }
   .preco .preco-item:nth-child(2) {

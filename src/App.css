@@ -10,7 +10,7 @@ a {
 }
 
 * {
-  box-sizing: border-box; /*sempre colocar*/
+  box-sizing: border-box;
 }
 
 body {
@@ -28,5 +28,5 @@ a {
 
 img {
   display: block;
-  max-width: 100%; /* faz a img tem o maximo de tamanho e diminuir de acordo com o conteudo */
+  max-width: 100%;
 }

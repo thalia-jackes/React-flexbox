@@ -31,16 +31,16 @@
 }
 
 .purple {
-  border-top: 8px solid #ae81ff; /*Solid - bordar contínua*/
+  border-top: 8px solid #ae81ff;
   align-content: center;
 }
 
 .pink {
-  border-top: 8px solid #f9265e; /*Solid - bordar contínua*/
+  border-top: 8px solid #f9265e;
   align-self: center;
 }
 
 .blue {
-  border-top: 8px solid #66d9eb; /*Solid - bordar contínua*/
+  border-top: 8px solid #66d9eb;
   align-self: flex-end;
 }
