@@ -23,8 +23,8 @@
 }
 
 .menu-nav ul {
-  display: flex; /*os itens ficam um do lado do outro*/
-  flex-wrap: wrap; /*para os itens não estourarem o container e ir para proxima linha*/
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .menu-nav a {
